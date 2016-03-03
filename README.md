@@ -4,7 +4,7 @@
 
 # Overview
 
-This project involved logging sensor data to a file on a computer (in this case, remotely, via radio transmission) while simultaneously recording GPS location using a smartphone app.  Because GPS recording devices (like smartphones) are common, and generate KML or GPX files, the resultant problem may fairly common: how to combine the GPS data (logging at some rate) with the sensor data (logging at some other rate).
+This project involved logging sensor data to a file on a computer (in this case, remotely, via radio transmission) while simultaneously recording GPS location using a smartphone app.  Because GPS recording devices (like smartphones) are common, and generate KML or GPX files, the resultant problem may fairly common: how to easily combine GPS data (recording at some logging rate, on e.g. a smartphone) with a separately-recorded sensor data file (which may have been logged at some other rate, but overlaps in time with the GPS data).
 
 Because we imagine that each part of this process might separately have useful application in various monitoring use-cases, we have broken our analysis into three main steps:
 
