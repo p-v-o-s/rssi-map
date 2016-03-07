@@ -28,7 +28,7 @@ We've done that in a notebook here: [timing_match.ipynb](./timing_match.ipynb) .
 
 Finally, the world-line of the logging data (in our case, the signal strength (RSSI) of a radio transmitter) can be embedded in a map.  
 
-We've used the Folium library to do that here:  [folium_plot.ipynb](./folium_plot_csv.ipynb) .
+We've used the Folium library to do that here:  [folium_plot_csv.ipynb](./folium_plot_csv.ipynb) .
 
 # Project details
 
